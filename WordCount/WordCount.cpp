@@ -2,22 +2,14 @@
 //
 
 #include <stdio.h>
-
 int main()
-
 {
-
 	char c;
-
 	int letters = 0, space = 0, digit = 0, other = 0;
-
 	printf("请输入一行字符：");
-
 	while ((c = getchar()) != '\n')
 	{
-
 		if (c >= 'a' && c <= 'z' || c >= 'A' && c <= 'Z')
-
 		{
 			letters++;
 		}
